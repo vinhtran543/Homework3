@@ -18,7 +18,7 @@ class Enrollee {
     public String getName() {
         return this.name;
     }
-    
+
     protected void addCourse(Course course) {
         this.courses.add(course);
     }

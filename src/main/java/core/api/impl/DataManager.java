@@ -20,7 +20,7 @@ public class DataManager {
         }
         return null;
     }
-    
+
     static Enrollee findStudent(String name) {
         for (Enrollee s : enrollees) {
             if (s.getName().equals(name)) return s;

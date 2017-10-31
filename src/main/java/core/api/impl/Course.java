@@ -18,6 +18,7 @@ class Course {
         this(name, year, 0);
     }
 
+
     protected Course(String name, int year, int capacity) {
         this.name = name;
         this.year = year;
@@ -29,9 +30,6 @@ class Course {
 
     public int getCapacity() {
         return this.capacity;
-    }
-    public int getYear() {
-        return this.year;
     }
 
     protected void addStudent(Enrollee enrollee) {
